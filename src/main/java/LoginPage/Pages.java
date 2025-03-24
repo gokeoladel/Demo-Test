@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Pages {
-    WebDriver driver;
+    private WebDriver driver;
 
     public Pages(WebDriver driver){
         this.driver = driver;
